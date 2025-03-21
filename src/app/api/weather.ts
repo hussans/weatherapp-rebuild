@@ -1,4 +1,6 @@
-const APIKEY = '***REMOVED***';
+import { OPENWEATHER_API_KEY } from "@/lib/environment";
+
+const APIKEY = OPENWEATHER_API_KEY;
 
 export interface WeatherLocation {
     name: string;
